@@ -7,6 +7,8 @@ import StTerese from './stterese.jsx';
 import BrCharles from './brcharles.jsx';
 import Guadalupe from './guadalupe.jsx';
 import SacredHeart from './sacredheart.jsx';
+import StFrancis from './francis.jsx';
+
 
 
 
@@ -18,6 +20,7 @@ createRoot(document.getElementById('root')).render(
 		<Route path = "stterese" element = {<StTerese />} />
 		<Route path = "brcharles" element = {<BrCharles />} />
 		<Route path = "guadalupe" element = {<Guadalupe/>} />
+		<Route path = "francis" element = {<StFrancis/>} />
 	</Routes>
   </BrowserRouter>
 )

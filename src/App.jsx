@@ -23,6 +23,10 @@ function App() {
 	The candle will "burn" for one hour (even if you leave the site)
 	and then be extinguished.
 	</p>
+	<p>
+	If you would like to leave a prayer request with me 
+	<a href="mailto:virtualshrines95@gmail.com"> send me an email.</a>
+	</p>
 
 		</>
 		)
@@ -66,6 +70,9 @@ function DropdownMenu() {
 			</NavLink>
 			<NavLink to = "/guadalupe" end>
 			Our Lady of Guadalupe
+			</NavLink>
+			<NavLink to = "/francis" end>
+			St. Francis of Assisi
 			</NavLink>
             </div>
           )}
