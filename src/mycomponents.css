@@ -1,0 +1,102 @@
+
+
+
+.homebutton {
+	background-color: transparent;
+	width: 50px;
+	height: auto;
+	display: inline-block;
+	padding: 0px 0px 0px 0px;
+}
+.homefooter {
+	padding: 25px 0px 0px 0px;
+}
+
+.header {
+	vertical-align: top;
+}
+
+.messagebutton {
+	height: 3em;
+	line-height: 3em; 
+  padding: 0px 20px 0px;
+  display: inline-block;
+  border: 1px solid #777;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  cursor: pointer;
+  /* Gradient for the base color */
+  background: linear-gradient(to bottom, #a0a0a0 0%, #606060 100%);
+  /* Combined with box-shadow for bevel effect */
+  box-shadow: inset 0px 1px 0px rgba(250, 250, 250, 0.4), /* Inner highlight */
+              inset 0px -1px 0px rgba(0, 0, 0, 0.2), /* Inner shadow */
+              0px 2px 3px rgba(0, 0, 0, 0.3); /* Outer shadow for raised effect */
+}
+
+
+
+.iconcontainer {
+    /* Centers the contents of the container horizontally */
+    text-align: center; 
+}
+
+.messageicon {
+    /* Makes the image a block element so margin: auto works and sets horizontal centering */
+    display: block; 
+    margin: 0 auto;
+    /* Optional: Set max width for responsiveness */
+    max-width: 100%; 
+}
+
+.marquee-container {
+    /* Ensures the container takes up the full width for the scrolling effect to work across the page */
+    width:100%; 
+    overflow: hidden; /* Hides content outside the container */
+    background-color: #000000; /* Example background */
+    margin-top: 10px; /* Adds space between the image and the marquee */
+}
+
+.marquee-content {
+    /* Centers the content within its own space, ensuring the text starts and ends correctly in the animation */
+    width: 19em;
+    display: inline-block;
+    padding-left: 0%; /* Start the text off-screen to the right */
+    box-sizing: border-box;
+    white-space: nowrap; /* Prevents content from wrapping */
+    animation: scroll-left 80s linear; /* Adjust duration as needed */
+    animation-iteration-count: infinite;
+    animation-play-state: paused; /* Initially paused */
+    visibility: hidden;
+    transform: translateX(120%);
+    --finaltranslate: 0%
+}
+
+
+@keyframes scroll-left {
+      from {
+        transform: translateX(120%);
+      }
+      to {
+        transform: translateX(var(--finaltranslate));
+      }
+   }
+
+.homediv {
+	display:  inline-block;
+	height: 3em;
+	padding: 0px 20px 0px 0px;
+
+	
+}
+.messagediv {
+	height: 3em;
+	display:  inline-block;
+
+}
+
+.footer {
+	padding: 25px 0px 0px 0px;
+	display: flex;
+	wdith: 50%;
+	justify-content: center;
+}

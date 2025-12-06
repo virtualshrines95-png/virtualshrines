@@ -1,0 +1,22 @@
+
+.candle {
+	width: 100%;
+		max-height: 6em;
+	padding: 0.0em,0.0em;
+	background-color: rgb(0, 0, 0);
+	color:  rgb(0, 0, 0);
+	border: none
+}
+
+.candlebutton {
+	width: 20%;
+	max-height: 6em;
+	padding: 0.0em,0.0em;
+	background-color: rgb(0, 0, 0);
+	color:  rgb(0, 0, 0);
+	border: none
+}
+
+
+
+

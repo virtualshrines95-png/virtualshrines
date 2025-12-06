@@ -1,0 +1,83 @@
+#root {
+  max-width: 100%; 
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  vertical-align: top;
+}
+
+
+
+.icon {
+/* 	max-width: 70%;
+	height: auto;
+	height: 20em; */
+	width: 19em;
+}
+
+
+
+
+.bbgradient {
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #777;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  /* Gradient for the base color */
+  background: linear-gradient(to bottom, #a0a0a0 0%, #606060 100%);
+  /* Combined with box-shadow for bevel effect */
+  box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.4), /* Inner highlight */
+              inset 0px -1px 0px rgba(0, 0, 0, 0.2), /* Inner shadow */
+              0px 2px 3px rgba(0, 0, 0, 0.3); /* Outer shadow for raised effect */
+}
+
+ .dropdown {
+      position: relative;
+      display: inline-block; /* Or block, depending on your layout */
+    }
+
+    .dropdown-content {
+      display: none; /* Hidden by default */
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    /* Show the dropdown menu on hover or when `isOpen` is true */
+    .dropdown:hover .dropdown-content,
+    .dropdown .dropdown-content { /* When `isOpen` is true, the `display: block` will be applied by React */
+      display: block;
+    }
+
+    .dropdown-toggle {
+      background-color: #A0A0A0;
+      color: white;
+      border-radius: 4px;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .active {
+      font-weight: bold;
+      color: blue; /* Example for active link styling */
+    }
+
+
