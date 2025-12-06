@@ -13,7 +13,7 @@ function Candle({cname, sname}) {
 	const timeoutRef = useRef(null);
 	const [wasActive, setWasActive] = useState(0);
 	
-	const BURN_TIME = 60000; // how long in milliseconds the candle should burn
+	const BURN_TIME = 3600000; // how long in milliseconds the candle should burn
 
 	useEffect(()=>{reactivate();},[]);
 
