@@ -38,6 +38,7 @@
 .iconcontainer {
     /* Centers the contents of the container horizontally */
     text-align: center; 
+
 }
 
 .messageicon {
@@ -45,7 +46,8 @@
     display: block; 
     margin: 0 auto;
     /* Optional: Set max width for responsiveness */
-    max-width: 100%; 
+    width: 100%;
+    max-width: 28em; 
 }
 
 .marquee-container {

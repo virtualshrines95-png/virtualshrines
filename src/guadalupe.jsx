@@ -1,4 +1,4 @@
-import guadalupe from './assets/guadalupe.jpg'
+import guadalupe from './assets/guadalupe2.jpg'
 import './App.css'
 import Candle from './Candle'
 import {Footer, MessageButton, MarqueeComponent} from './mycomponents'
