@@ -73,7 +73,7 @@ function SacredHeart() {
 	          <h1>Sacred Heart of Jesus</h1>
 			  <h2>We Trust in You</h2>
 	      <div className="iconcontainer">
-	          <img src={sacredheart} className="messageicon" alt="sacred heart" />
+	          <img src={sacredheart} className="messageiconsh" alt="sacred heart" />
 	        
 
 

@@ -50,6 +50,15 @@
     max-width: 28em; 
 }
 
+.messageiconsh {
+	    /* Makes the image a block element so margin: auto works and sets horizontal centering */
+    display: block; 
+    margin: 0 auto;
+    /* Optional: Set max width for responsiveness */
+    width: 100%;
+    max-width: 19em; 
+}
+
 .marquee-container {
     /* Ensures the container takes up the full width for the scrolling effect to work across the page */
     width:100%; 
