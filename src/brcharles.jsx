@@ -10,8 +10,8 @@ function BrCharles() {
 	return (
 	    <>
 
-	          <h1>St. Charles de Foucault </h1>
-			  <h2>Pray for Us</h2>
+	          <h1>St. Charles de Foucauld </h1>
+
 	      <div>
 	          <img src={brcharles} className="icon" alt="brcharles image" />
 	        

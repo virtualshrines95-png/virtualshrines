@@ -33,6 +33,14 @@ body {
   max-width: 100%
 }
 
+
+p {
+	text-align: left;
+;
+
+	
+	
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.0;
@@ -71,7 +79,7 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #FFFFFF;
- background-color:rgb(6, 6, 6)   ;
+ background-color:rgb(50, 50, 100)   ;
   }
   a:hover {
     color: rgb(255,255,255);

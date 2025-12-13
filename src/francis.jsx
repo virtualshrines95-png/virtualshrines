@@ -11,7 +11,7 @@ function StFrancis() {
 	    <>
 
 	          <h1>St. Francis of Assissi</h1>
-			  <h2>Pray for Us</h2>
+
 	      <div>
 	          <img src={stfrancis} className="icon" alt="stfrancis image" />
 	        

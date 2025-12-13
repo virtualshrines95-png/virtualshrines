@@ -16,8 +16,15 @@
 	width: 20em;
 }
 
-
-
+.vscontent {
+	max-width: 35em;
+	text-align: center;
+	display: inline-block;
+}
+.cross {
+	max-width: 5em;
+	padding: 20px;
+}
 
 .bbgradient {
   padding: 10px 20px;

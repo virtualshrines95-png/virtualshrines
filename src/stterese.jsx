@@ -9,8 +9,8 @@ function StTerese() {
 	return (
 	    <>
 	
-	          <h1>St. Terese of Lisieux</h1>
-			  <h2>Pray for Us</h2>
+	          <h1>St. Th&eacute;r&egrave;se of Lisieux</h1>
+
 	        <div>
 	          <img src={terese} className="icon" alt="terese image" />
 	        

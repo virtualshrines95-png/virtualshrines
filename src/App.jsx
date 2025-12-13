@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import {NavLink} from "react-router";
 import './App.css';
+import cross from './assets/cross.jpg';
 
 	  
 function App() {
@@ -10,6 +11,7 @@ function App() {
 		<>
 		<h1> Virtual Shrines </h1>
 		<SaintsDropdown />
+	<div className="vscontent" >
 	<p>
 	This site contains virtual prayer spaces which you can visit and 
 	where you can light a candle.
@@ -26,8 +28,11 @@ function App() {
 	<p>
 	If you would like to leave a prayer request with me 
 	<a href="mailto:virtualshrines95@gmail.com"> send me an email.</a>
+
 	</p>
 
+	<img src={cross} className="cross" />
+	</div>
 		</>
 		)
 }
@@ -63,7 +68,7 @@ function DropdownMenu() {
 			Sacred Heart
 			</NavLink>
 			<NavLink to = "/stterese" end>
-			St. Terese
+			St. Th&eacute;r&egrave;se 
 			</NavLink>
 			<NavLink to = "/brcharles" end>
 			Br. Charles

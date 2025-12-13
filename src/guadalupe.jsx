@@ -74,7 +74,7 @@ function Guadalupe() {
 	    <>
 
 	          <h1>Our Lady of Guadalupe</h1>
-			  <h2>Pray for Us</h2>
+
 	      <div className="iconcontainer">
 	          <img src={guadalupe} className="messageicon" alt="mary" />
 	        
